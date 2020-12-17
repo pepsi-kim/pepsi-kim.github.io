@@ -1,0 +1,165 @@
+<!DOCTYPE html><!--22061111 정지윤-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      *{
+        padding: 0;
+        margin: 0;
+      }
+
+      .clear {
+        clear: both;
+      }
+
+      body{
+        padding: 30px;
+        background: black;
+      }
+
+      a {
+        color : black;
+        text-decoration: none;
+      }
+
+      /*Style the top navigation bar*/
+      .topnav{
+        overflow: hidden; /*visible,scroll,auto*/
+        font-family: 'Sandoll 고딕Neo1유니코드 02 Ul';
+        font-size: 20px;
+        float: right;
+      }
+
+      /*Style the topnav links*/
+      .topnav a{
+        float: left;
+        display: block;
+        color: #00ccff;
+        text-align: center;
+        padding: 15px 16px;
+        text-decoration: none;
+      }
+
+      /*Change color on hover*/
+      .topnav a:hover{
+        color: #ff0091;
+      }
+
+      .subnav {
+        overflow: hidden; /*visible,scroll,auto*/
+        font-family: 'Sandoll 고딕Neo1유니코드 02 Ul';
+        font-size: 15px;
+        float: right;
+        color: white;
+      }
+
+      .subnav a{
+        float: left;
+        display: block;
+        color: white;
+        text-align: right;
+        padding: 15px 16px;
+        text-decoration: none;
+      }
+
+      .subnav a:hover {
+        color : #aa00ff;
+      }
+
+      #pp {
+        color : #aa00ff;
+      }
+
+      .main {
+        font-family: 'Sandoll 고딕Neo1유니코드 02 Ul';
+        font-size: 30px;
+        color: #00ccff;
+        width: 100%;
+      }
+
+      .main p {
+        font-family: '나눔스퀘어 Light';
+        font-size: 18px;
+        color: white;
+        width: 100%;
+        line-height : 30px;
+      }
+
+      .main a{
+        color : white;
+      }
+
+      .main a:hover {
+        color : #00ccff;
+      }
+
+      #small {
+        font-size: 20px;
+      }
+
+      .line {
+        border : solid 1px white;
+        margin : 40px 0 40px 0;
+      }
+
+      #rr {
+        color : #ff0091;
+      }
+
+
+      footer {
+        padding: 20px;
+        text-align: center;
+        background: #ff0091;
+        margin-top: 20px;
+        font-family: '나눔스퀘어 Light';
+        color: white;
+      }
+
+      /*Responsive layout - when the screen is less than 400px wide,
+      make the navigation links stack on top of each other instead of next to each other*/
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+  <a href="index.html"><img src="./img/logo.png" onmouseover="this.src='./img/logo_2.png';" onmouseout="this.src='./img/logo.png';" width='5%'></a>
+  <audio src="./src/fancyfootwork.mp3" controls autoplay loop></audio>
+
+   <div class="topnav">
+     <a href="index_02.html">Design</a>
+     <a href="index_06.html">Profile</a>
+     <a href="index_08.html">Contact</a>
+   </div>
+
+   <br>
+
+   <div class="subnav">
+     <a href="index_08.html"><div id="pp">address</div></a>
+   </div>
+
+   <br><br><br>
+
+   <div class="main">
+     <h3>Contact</h3>
+     <div class="line"></div>
+     <p> <a href="https://www.instagram.com/pepsi.kim/">Instagram @pepsi.kim</a> <br>
+     E. araksha122@gmail.com <br>
+     TEL. 010-3340-2065 </p>
+     <br>
+
+     <footer>
+         <img src="./img/logo_2.png" width='5%'>
+         <p>Copyright ⓒ pepsi.kim ALL RIGHT RESERVED</p>
+     </footer>
+
+  </body>
+</html>

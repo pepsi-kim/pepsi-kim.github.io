@@ -1,0 +1,177 @@
+<!DOCTYPE html><!--22061111 정지윤-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      *{
+        padding: 0;
+        margin: 0;
+      }
+
+      .clear {
+        clear: both;
+      }
+
+      body{
+        padding: 30px;
+        background: black;
+      }
+
+      a {
+        color : black;
+        text-decoration: none;
+      }
+
+      /*Style the top navigation bar*/
+      .topnav{
+        overflow: hidden; /*visible,scroll,auto*/
+        font-family: 'Sandoll 고딕Neo1유니코드 02 Ul';
+        font-size: 20px;
+        float: right;
+      }
+
+      /*Style the topnav links*/
+      .topnav a{
+        float: left;
+        display: block;
+        color: #00ccff;
+        text-align: center;
+        padding: 15px 16px;
+        text-decoration: none;
+      }
+
+      /*Change color on hover*/
+      .topnav a:hover{
+        color: #ff0091;
+      }
+
+      .subnav {
+        overflow: hidden; /*visible,scroll,auto*/
+        font-family: 'Sandoll 고딕Neo1유니코드 02 Ul';
+        font-size: 15px;
+        float: right;
+        color: white;
+      }
+
+      .subnav a{
+        float: left;
+        display: block;
+        color: white;
+        text-align: right;
+        padding: 15px 16px;
+        text-decoration: none;
+      }
+
+      #rr {
+        color : #ff0091;
+      }
+
+      .subnav a:hover {
+        color : #aa00ff;
+      }
+
+      #pp {
+        color : #aa00ff;
+      }
+
+      .main {
+        font-family: 'Sandoll 고딕Neo1유니코드 02 Ul';
+        font-size: 30px;
+        color: #00ccff;
+        width: 100%;
+      }
+
+      .main p {
+        font-family: '나눔스퀘어 Light';
+        font-size: 18px;
+        color: white;
+        width: 100%;
+        line-height : 30px;
+      }
+
+      #small {
+        font-size: 20px;
+      }
+
+      .line {
+        border : solid 1px white;
+        margin : 40px 0 40px 0;
+      }
+
+
+      footer {
+        padding: 20px;
+        text-align: center;
+        background: #ff0091;
+        margin-top: 20px;
+        font-family: '나눔스퀘어 Light';
+        color: white;
+      }
+
+      /*Responsive layout - when the screen is less than 400px wide,
+      make the navigation links stack on top of each other instead of next to each other*/
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+  <a href="index.html"><img src="./img/logo.png" onmouseover="this.src='./img/logo_2.png';" onmouseout="this.src='./img/logo.png';" width='5%'></a>
+  <audio src="./src/fancyfootwork.mp3" controls autoplay loop></audio>
+
+   <div class="topnav">
+     <a href="index_02.html"><div id="rr">Design</div></a>
+     <a href="index_06.html">Profile</a>
+     <a href="index_08.html">Contact</a>
+   </div>
+
+   <br>
+
+   <div class="subnav">
+     <a href="index_02.html">Web Design</a>
+     <a href="index_03.html">Graphic Design</a>
+     <a href="index_04.html">Video Design</a>
+     <a href="index_05.html"><div id="pp">Artwork</div></a>
+   </div>
+
+   <br><br><br>
+
+   <div class="main">
+     <h3>Artwork_1</h3>
+     <br>
+     <img src="./img/a_1.png" width="18%">
+     <img src="./img/a_2.png" width="18%">
+     <img src="./img/a_3.png" width="18%">
+     <img src="./img/a_4.png" width="18%">
+     <img src="./img/a_5.png" width="18%">
+     <p><br>일상에서 느꼈던 이야기를 바탕으로 <br>
+     캐릭터풍의 그림일기를 그린 아트워크입니다. <br>
+     </p>
+   </div>
+
+   <div class="line"></div>
+
+   <div class="main">
+     <h3>Artwork_2</h3>
+     <br>
+     <img src="./img/aa_1.png" width="20%">
+     <img src="./img/aa_2.png" width="20%">
+     <img src="./img/aa_3.png" width="20%">
+     <img src="./img/aa_4.png" width="20%">
+     <p><br>당시 떠오른 생각을 바탕으로 자유롭게 그린 일러스트입니다.</p>
+   </div>
+
+     <footer>
+         <img src="./img/logo_2.png" width='5%'>
+         <p>Copyright ⓒ pepsi.kim ALL RIGHT RESERVED</p>
+     </footer>
+
+  </body>
+</html>

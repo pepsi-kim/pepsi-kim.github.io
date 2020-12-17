@@ -1,0 +1,181 @@
+<!DOCTYPE html><!--22061111 정지윤-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      *{
+        padding: 0;
+        margin: 0;
+      }
+
+      .clear {
+        clear: both;
+      }
+
+      body{
+        padding: 30px;
+        background: black;
+      }
+
+      a {
+        color : black;
+        text-decoration: none;
+      }
+
+      /*Style the top navigation bar*/
+      .topnav{
+        overflow: hidden; /*visible,scroll,auto*/
+        font-family: 'Sandoll 고딕Neo1유니코드 02 Ul';
+        font-size: 20px;
+        float: right;
+      }
+
+      /*Style the topnav links*/
+      .topnav a{
+        float: left;
+        display: block;
+        color: #00ccff;
+        text-align: center;
+        padding: 15px 16px;
+        text-decoration: none;
+      }
+
+      /*Change color on hover*/
+      .topnav a:hover{
+        color: #ff0091;
+      }
+
+      .subnav {
+        overflow: hidden; /*visible,scroll,auto*/
+        font-family: 'Sandoll 고딕Neo1유니코드 02 Ul';
+        font-size: 15px;
+        float: right;
+        color: white;
+      }
+
+      .subnav a{
+        float: left;
+        display: block;
+        color: white;
+        text-align: right;
+        padding: 15px 16px;
+        text-decoration: none;
+      }
+
+      .subnav a:hover {
+        color : #aa00ff;
+      }
+
+      #pp {
+        color : #aa00ff;
+      }
+
+      .main {
+        font-family: 'Sandoll 고딕Neo1유니코드 02 Ul';
+        font-size: 30px;
+        color: #00ccff;
+        width: 100%;
+      }
+
+      .main p {
+        font-family: '나눔스퀘어 Light';
+        font-size: 18px;
+        color: white;
+        width: 100%;
+        line-height : 30px;
+      }
+
+      #small {
+        font-size: 20px;
+      }
+
+      .line {
+        border : solid 1px white;
+        margin : 40px 0 40px 0;
+      }
+
+
+      footer {
+        padding: 20px;
+        text-align: center;
+        background: #ff0091;
+        margin-top: 20px;
+        font-family: '나눔스퀘어 Light';
+        color: white;
+      }
+
+      /*Responsive layout - when the screen is less than 400px wide,
+      make the navigation links stack on top of each other instead of next to each other*/
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+
+      #rr {
+        color : #ff0091;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+  <a href="index.html"><img src="./img/logo.png" onmouseover="this.src='./img/logo_2.png';" onmouseout="this.src='./img/logo.png';" width='5%'></a>
+  <audio src="./src/fancyfootwork.mp3" controls autoplay loop></audio>
+
+   <div class="topnav">
+     <a href="index_02.html"><div id="rr">Design</div></a>
+     <a href="index_06.html">Profile</a>
+     <a href="index_08.html">Contact</a>
+   </div>
+
+   <br>
+
+   <div class="subnav">
+     <a href="index_02.html">Web Design</a>
+     <a href="index_03.html">Graphic Design</a>
+     <a href="index_04.html"><div id="pp">Video Design</div></a>
+     <a href="index_05.html">Artwork</a>
+   </div>
+
+   <br><br><br>
+
+   <div class="main">
+     <h3>Video Design_1</h3>
+     <br>
+     <video width="700" autoplay controls>
+       <source src="./src/video_1.mp4" type="video/mp4">
+       <source src="./src/video_1.mp4" type="video/webm">
+       <source src="./src/video_1.mp4" type="video/ogg">
+     </video>
+     <p><br>영상디자인 1학년 2학기 직무수행능력평가1 과제물로 제출했던 모션그래픽 영상입니다. <br>
+     재미있게 읽었던 '뜻밖의 스파이 폴리팩스 부인' 이라는 책의 인트로를 바탕으로 <br>
+     영화 오프닝 시퀀스처럼 제작하였습니다.</p>
+   </div>
+
+   <div class="line"></div>
+
+   <div class="main">
+     <h3>Video Design_2</h3>
+     <br>
+     <video width="700" autoplay controls>
+       <source src="./src/video_2.mp4" type="video/mp4">
+       <source src="./src/video_2.mp4" type="video/webm">
+       <source src="./src/video_2.mp4" type="video/ogg">
+     </video>
+     <p><br>영상디자인 1학년 2학기 직무수행능력평가2 과제물로 제출했던 팀 과제 영상입니다. <br>
+     동영상 공유 플랫폼 유튜브의 사용설명서라는 컨셉을 잡아 진행하였으며, <br>
+     고딕 폰트, 대비가 강한 톤앤매너, 나레이션 등을 더하여 <br>
+     사용설명서라는 컨셉이 부각되도록 제작하였습니다.</p>
+   </div>
+
+     <footer>
+         <img src="./img/logo_2.png" width='5%'>
+         <p>Copyright ⓒ pepsi.kim ALL RIGHT RESERVED</p>
+     </footer>
+
+  </body>
+</html>

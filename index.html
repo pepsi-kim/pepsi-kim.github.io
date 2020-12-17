@@ -1,0 +1,119 @@
+<!DOCTYPE html><!--22061111 정지윤-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+      }
+
+      .clear {
+        clear: both;
+      }
+
+      body{
+        padding: 30px;
+        background: black;
+      }
+
+      a {
+        color : black;
+        text-decoration: none;
+      }
+
+      /*Style the top navigation bar*/
+      .topnav{
+        overflow: hidden; /*visible,scroll,auto*/
+        font-family: 'Sandoll 고딕Neo1유니코드 02 Ul';
+        font-size: 20px;
+        float: right;
+      }
+
+      /*Style the topnav links*/
+      .topnav a{
+        float: left;
+        display: block;
+        color: #00ccff;
+        text-align: center;
+        padding: 20px 16px;
+        text-decoration: none;
+      }
+
+      /*Change color on hover*/
+      .topnav a:hover{
+        color: #ff0091;
+      }
+
+
+      .main {
+        font-family: 'Sandoll 고딕Neo1유니코드 01 Th';
+        font-size: 150px;
+        color: #00ccff;
+        width: 50%;
+      }
+
+      .main_box {
+        font-family: 'Sandoll 고딕Neo1유니코드 01 Th';
+        font-size: 150px;
+        color: #00ccff;
+      }
+
+      .main :hover {
+        color: #aa00ff;
+      }
+
+      #small {
+        font-size: 20px;
+      }
+
+
+      footer {
+        padding: 20px;
+        text-align: center;
+        background: #ff0091;
+        margin-top: 20px;
+        font-family: 'KoPubWorld돋움체 Medium';
+        color: white;
+      }
+
+      /*Responsive layout - when the screen is less than 400px wide,
+      make the navigation links stack on top of each other instead of next to each other*/
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+
+  </head>
+  <body>
+
+  <a href="index.html"><img src="./img/logo.png" onmouseover="this.src='./img/logo_2.png';" onmouseout="this.src='./img/logo.png';" width='5%'></a>
+  <audio src="./src/fancyfootwork.mp3" controls autoplay loop></audio>
+
+   <div class="topnav">
+     <a href="index_02.html">Design</a>
+     <a href="index_06.html">Profile</a>
+     <a href="index_08.html">Contact</a>
+   </div>
+
+   <div class="main">
+     <br><br><br>
+     <div class="main_box">
+       pepsi.kim <br> Portfolio
+     </div>
+     <div id="small">
+       자신만의 색이 뚜렷한 디자이너, 정지윤입니다.
+       <br>
+     </div>
+   </div>
+
+     <footer>
+         <img src="./img/logo_2.png" width='5%'>
+         <p>Copyright ⓒ pepsi.kim ALL RIGHT RESERVED</p>
+     </footer>
+
+  </body>
+</html>

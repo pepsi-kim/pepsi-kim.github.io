@@ -1,0 +1,178 @@
+<!DOCTYPE html><!--22061111 정지윤-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      *{
+        padding: 0;
+        margin: 0;
+      }
+
+      .clear {
+        clear: both;
+      }
+
+      body{
+        padding: 30px;
+        background: black;
+      }
+
+      a {
+        color : black;
+        text-decoration: none;
+      }
+
+      /*Style the top navigation bar*/
+      .topnav{
+        overflow: hidden; /*visible,scroll,auto*/
+        font-family: 'Sandoll 고딕Neo1유니코드 02 Ul';
+        font-size: 20px;
+        float: right;
+      }
+
+      /*Style the topnav links*/
+      .topnav a{
+        float: left;
+        display: block;
+        color: #00ccff;
+        text-align: center;
+        padding: 15px 16px;
+        text-decoration: none;
+      }
+
+      /*Change color on hover*/
+      .topnav a:hover{
+        color: #ff0091;
+      }
+
+      .subnav {
+        overflow: hidden; /*visible,scroll,auto*/
+        font-family: 'Sandoll 고딕Neo1유니코드 02 Ul';
+        font-size: 15px;
+        float: right;
+        color: white;
+      }
+
+      .subnav a{
+        float: left;
+        display: block;
+        color: white;
+        text-align: right;
+        padding: 15px 16px;
+        text-decoration: none;
+      }
+
+      .subnav a:hover {
+        color : #aa00ff;
+      }
+
+      #pp {
+        color : #aa00ff;
+      }
+
+      #rr {
+        color : #ff0091;
+      }
+
+      .main {
+        font-family: 'Sandoll 고딕Neo1유니코드 02 Ul';
+        font-size: 30px;
+        color: #00ccff;
+        width: 100%;
+      }
+
+      .main p {
+        font-family: '나눔스퀘어 Light';
+        font-size: 18px;
+        color: white;
+        width: 100%;
+        line-height : 30px;
+      }
+
+      #small {
+        font-size: 20px;
+      }
+
+      .line {
+        border : solid 1px white;
+        margin : 40px 0 40px 0;
+      }
+
+
+      footer {
+        padding: 20px;
+        text-align: center;
+        background: #ff0091;
+        margin-top: 20px;
+        font-family: '나눔스퀘어 Light';
+        color: white;
+      }
+
+      /*Responsive layout - when the screen is less than 400px wide,
+      make the navigation links stack on top of each other instead of next to each other*/
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+  <a href="index.html"><img src="./img/logo.png" onmouseover="this.src='./img/logo_2.png';" onmouseout="this.src='./img/logo.png';" width='5%'></a>
+  <audio src="./src/fancyfootwork.mp3" controls autoplay loop></audio>
+
+   <div class="topnav">
+     <a href="index_02.html"><div id="rr">Design</div></a>
+     <a href="index_06.html">Profile</a>
+     <a href="index_08.html">Contact</a>
+   </div>
+
+   <br>
+
+   <div class="subnav">
+     <a href="index_02.html"><div id="pp">Web Design</div></a>
+     <a href="index_03.html">Graphic Design</a>
+     <a href="index_04.html">Video Design</a>
+     <a href="index_05.html">Artwork</a>
+   </div>
+
+   <br><br><br>
+
+   <div class="main">
+     <h3>Web Design_1</h3>
+     <br>
+     <img src="./img/one.png" width="23%">
+     <img src="./img/two.png" width="23%">
+     <img src="./img/three.png" width="23%">
+     <img src="./img/four.png" width="23%">
+     <p><br>콘텐츠 프로그래밍 1학년 2학기 직무수행평가1 과제물로 제출한 웹사이트. <br>
+     나와 내가 좋아하는 것들에 대한 이야기를 담았습니다. <br> 손편지라는 컨셉을 선정하여
+    배경에 질감을 깔고, 감성적인 무드를 강조하기 위하여 명조체의 폰트를 사용하였습니다.</p>
+   </div>
+
+   <div class="line"></div>
+
+   <div class="main">
+     <h3>Web Design_2</h3>
+     <br>
+     <img src="./img/1.png" width="30%">
+     <img src="./img/2.png" width="30%">
+     <img src="./img/3.png" width="30%">
+     <p><br>콘텐츠 디자인 1학년 2학기 직무수행능력평가2 과제물로 제출한 디지털 브로셔. <br>
+     차 브랜드 오설록을 주제로 선정하여, 차에 대해 가볍게 다가갈 수 있도록 하는 것을 목표로
+   제작하였습니다. <br>녹색과 베이지색을 메인 컬러로 선정하여, <br>가벼운 느낌을 주기 위해
+ 가느다란 선과 도형으로 UI를 제작하는 데에 중점을 두었습니다.</p>
+   </div>
+
+     <footer>
+         <img src="./img/logo_2.png" width='5%'>
+         <p>Copyright ⓒ pepsi.kim ALL RIGHT RESERVED</p>
+     </footer>
+
+  </body>
+</html>

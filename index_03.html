@@ -1,0 +1,177 @@
+<!DOCTYPE html><!--22061111 정지윤-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      *{
+        padding: 0;
+        margin: 0;
+      }
+
+      .clear {
+        clear: both;
+      }
+
+      body{
+        padding: 30px;
+        background: black;
+      }
+
+      a {
+        color : black;
+        text-decoration: none;
+      }
+
+      /*Style the top navigation bar*/
+      .topnav{
+        overflow: hidden; /*visible,scroll,auto*/
+        font-family: 'Sandoll 고딕Neo1유니코드 02 Ul';
+        font-size: 20px;
+        float: right;
+      }
+
+      /*Style the topnav links*/
+      .topnav a{
+        float: left;
+        display: block;
+        color: #00ccff;
+        text-align: center;
+        padding: 15px 16px;
+        text-decoration: none;
+      }
+
+      /*Change color on hover*/
+      .topnav a:hover{
+        color: #ff0091;
+      }
+
+      .subnav {
+        overflow: hidden; /*visible,scroll,auto*/
+        font-family: 'Sandoll 고딕Neo1유니코드 02 Ul';
+        font-size: 15px;
+        float: right;
+        color: white;
+      }
+
+      .subnav a{
+        float: left;
+        display: block;
+        color: white;
+        text-align: right;
+        padding: 15px 16px;
+        text-decoration: none;
+      }
+
+      .subnav a:hover {
+        color : #aa00ff;
+      }
+
+      #pp {
+        color : #aa00ff;
+      }
+
+      .main {
+        font-family: 'Sandoll 고딕Neo1유니코드 02 Ul';
+        font-size: 30px;
+        color: #00ccff;
+        width: 100%;
+      }
+
+      .main p {
+        font-family: '나눔스퀘어 Light';
+        font-size: 18px;
+        color: white;
+        width: 100%;
+        line-height : 30px;
+      }
+
+      #small {
+        font-size: 20px;
+      }
+
+      .line {
+        border : solid 1px white;
+        margin : 40px 0 40px 0;
+      }
+
+
+      footer {
+        padding: 20px;
+        text-align: center;
+        background: #ff0091;
+        margin-top: 20px;
+        font-family: '나눔스퀘어 Light';
+        color: white;
+      }
+
+      /*Responsive layout - when the screen is less than 400px wide,
+      make the navigation links stack on top of each other instead of next to each other*/
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+
+      #rr {
+        color : #ff0091;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+  <a href="index.html"><img src="./img/logo.png" onmouseover="this.src='./img/logo_2.png';" onmouseout="this.src='./img/logo.png';" width='5%'></a>
+  <audio src="./src/fancyfootwork.mp3" controls autoplay loop></audio>
+
+   <div class="topnav">
+     <a href="index_02.html"><div id="rr">Design</div></a>
+     <a href="index_06.html">Profile</a>
+     <a href="index_08.html">Contact</a>
+   </div>
+
+   <br>
+
+   <div class="subnav">
+     <a href="index_02.html">Web Design</a>
+     <a href="index_03.html"><div id="pp">Graphic Design</div></a>
+     <a href="index_04.html">Video Design</a>
+     <a href="index_05.html">Artwork</a>
+   </div>
+
+   <br><br><br>
+
+   <div class="main">
+     <h3>Graphic Design_1</h3>
+     <br>
+     <img src="./img/a.png" width="20%">
+     <img src="./img/b.png" width="20%">
+     <img src="./img/c.png" width="20%">
+     <p><br>콘텐츠 디자인 1학년 2학기 직무수행능력평가1 과제물로 제출한 카드뉴스입니다. <br>
+     그래픽 디자이너 스테판 사그마이스터를 주제로, <br>
+    스테판 사그마이스터의 작품에서 느껴지는 특유의 자유롭고 파격적인 분위기를 <br>
+     가강한 대비의 원색을 이용한 디자인으로 풀어내고자 하였습니다. </p>
+   </div>
+
+   <div class="line"></div>
+
+   <div class="main">
+     <h3>Graphic Design_2</h3>
+     <br>
+     <img src="./img/c_1.png" width="20%">
+     <img src="./img/c_2.png" width="20%">
+     <img src="./img/c_3.png" width="20%">
+     <p><br>워크넷 홍보물 제작 대회에 출품하였던 카드뉴스입니다. <br>
+     워크넷의 메인 컬러인 청량한 파란색을 카드뉴스의 메인 컬러로 활용하였고, <br>
+     그와 대비되는 노란색을 이용하여 가독성을 높이고자 하였습니다.</p>
+   </div>
+
+     <footer>
+         <img src="./img/logo_2.png" width='5%'>
+         <p>Copyright ⓒ pepsi.kim ALL RIGHT RESERVED</p>
+     </footer>
+
+  </body>
+</html>
